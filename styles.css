@@ -20,6 +20,7 @@ body {
     transition: 0.2s;
     border-radius: 10px;
     text-align: center;
+    font-family: Novafont;
 }
 
 .flex-parent {
@@ -37,6 +38,6 @@ body {
 }
 
 @font-face {
-    font-family: novafont;
-    src: url(ChubbyChoo-Regular.ttf);
+    font-family: Novafont;
+    src:url(ChubbyChoo-Regular.ttf);
 }
