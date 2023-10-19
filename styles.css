@@ -1,0 +1,37 @@
+body {
+    background-image: url(static/img/background-switch-redblue.png);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 390px;
+    margin-top: 135px;
+    width: 1075px;
+}
+
+.btn-home {
+    width: 300px;
+    font-size: 50px;
+    color: rgb(124, 178, 232);
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: black;
+    transition: 0.2s;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn-home:hover{        
+    transform: scale(1.1);
+    background-color: white;         
+}
