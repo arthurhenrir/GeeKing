@@ -35,3 +35,8 @@ body {
     transform: scale(1.1);
     background-color: white;         
 }
+
+@font-face {
+    font-family: novafont;
+    src: url(ChubbyChoo-Regular.ttf);
+}
