@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background-image: url(static/img/background-switch-redblue.png);
+    background-image: url(backgroundss.gif);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center center;
@@ -19,6 +19,7 @@ body {
     margin-top: 135px;*/
     width: fit-content;
     text-align: center;
+    
 }
 
 
@@ -56,4 +57,11 @@ body {
 @font-face {
     font-family: Novafont;
     src:url(ChubbyChoo-Regular.ttf);
+}
+
+.imagemsobreposicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
