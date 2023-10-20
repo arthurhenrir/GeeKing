@@ -1,14 +1,29 @@
+html{
+    margin:0;
+    padding: 0;
+}
+
 body {
     background-image: url(static/img/background-switch-redblue.png);
-    background-size: 100%; 
+    background-size: cover; 
     background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    margin-left: 390px;
-    margin-top: 135px;
-    width: 1075px;
+    /* margin-left: 390px;
+    margin-top: 135px;*/
+    width: fit-content;
+    text-align: center;
 }
+
+
+
+
 
 .btn-home {
     width: 300px;
@@ -21,6 +36,7 @@ body {
     border-radius: 10px;
     text-align: center;
     font-family: Novafont;
+    margin: 10px auto;
 }
 
 .flex-parent {
