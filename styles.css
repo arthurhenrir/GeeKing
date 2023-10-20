@@ -59,9 +59,3 @@ body {
     src:url(ChubbyChoo-Regular.ttf);
 }
 
-.imagemsobreposicao {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
