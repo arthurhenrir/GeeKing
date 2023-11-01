@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .container {
@@ -59,3 +59,12 @@ body {
     src:url(ChubbyChoo-Regular.ttf);
 }
 
+.bords {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; z-index: -1"
+    /* até tentei encaixar uma class pra imagem do switch como da pra ver mas n quis funcionar
+    por algum motivo o z-index n funciona direito na class aqui, provavelmente alguma coisa q n to vendo*/
+}
