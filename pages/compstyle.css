@@ -9,3 +9,16 @@ body {
     height: 90vh;
 }
 
+.caixa{
+    height: 50px;
+    width: 250px;
+    background-color:black;
+    color: white;
+    font-family: Novafont;
+    padding-left: 10px;
+    font-size: 20px;
+}
+@font-face {
+    font-family: Novafont;
+    src:url(../ChubbyChoo-Regular.ttf);
+}
