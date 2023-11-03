@@ -10,13 +10,17 @@ body {
 }
 
 .caixa{
-    height: 50px;
+    height: 55px;
     width: 250px;
     background-color:black;
     color: white;
     font-family: Novafont;
     padding-left: 10px;
     font-size: 20px;
+    border-color: black;
+    border-radius: 10px;
+    border: none;
+    
 }
 @font-face {
     font-family: Novafont;
