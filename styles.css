@@ -22,9 +22,9 @@ body {
     
 }
 
-
-
-
+.menu {
+    margin-top: -50px;
+}
 
 .btn-home {
     width: 300px;
@@ -37,7 +37,6 @@ body {
     border-radius: 10px;
     text-align: center;
     font-family: Novafont;
-    margin: 10px auto;
 }
 
 .flex-parent {
